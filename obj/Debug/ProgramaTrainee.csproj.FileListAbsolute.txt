@@ -1,0 +1,132 @@
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\ProgramaTrainee.dll.config
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\ProgramaTrainee.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\ProgramaTrainee.pdb
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\csc.exe
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\csc.exe.config
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\csc.rsp
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\csi.exe
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\csi.rsp
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\System.AppContext.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\vbc.exe
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\vbc.exe.config
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\vbc.rsp
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\VBCSCompiler.exe
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.CoreCompileInputs.cache
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.CopyComplete
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\obj\Debug\ProgramaTrainee.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\obj\Debug\ProgramaTrainee.pdb
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\EntityFramework.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\EntityFramework.SqlServer.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\EntityFramework.xml
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\EntityFramework.SqlServer.xml
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\60003117\Google Drive\ProgramaTrainee\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.AssemblyReference.cache
+C:\Users\terra\Desktop\ProgramaTrainee\bin\ProgramaTrainee.dll.config
+C:\Users\terra\Desktop\ProgramaTrainee\bin\ProgramaTrainee.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\ProgramaTrainee.pdb
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\csc.exe
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\csc.exe.config
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\csc.rsp
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\csi.exe
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\csi.rsp
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\System.AppContext.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\vbc.exe
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\vbc.exe.config
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\vbc.rsp
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\VBCSCompiler.exe
+C:\Users\terra\Desktop\ProgramaTrainee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\terra\Desktop\ProgramaTrainee\bin\EntityFramework.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\EntityFramework.SqlServer.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\terra\Desktop\ProgramaTrainee\bin\EntityFramework.xml
+C:\Users\terra\Desktop\ProgramaTrainee\bin\EntityFramework.SqlServer.xml
+C:\Users\terra\Desktop\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\terra\Desktop\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\terra\Desktop\ProgramaTrainee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\terra\Desktop\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.AssemblyReference.cache
+C:\Users\terra\Desktop\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.CoreCompileInputs.cache
+C:\Users\terra\Desktop\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.CopyComplete
+C:\Users\terra\Desktop\ProgramaTrainee\obj\Debug\ProgramaTrainee.dll
+C:\Users\terra\Desktop\ProgramaTrainee\obj\Debug\ProgramaTrainee.pdb
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\ProgramaTrainee.dll.config
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\ProgramaTrainee.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\ProgramaTrainee.pdb
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\csc.exe
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\csc.exe.config
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\csc.rsp
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\csi.exe
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\csi.rsp
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\System.AppContext.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\vbc.exe
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\vbc.exe.config
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\vbc.rsp
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\VBCSCompiler.exe
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\EntityFramework.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\EntityFramework.SqlServer.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\EntityFramework.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\EntityFramework.SqlServer.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.CoreCompileInputs.cache
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.pdb
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.AssemblyReference.cache
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.CopyComplete
