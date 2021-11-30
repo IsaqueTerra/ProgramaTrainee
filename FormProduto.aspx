@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FormUsuario.aspx.cs" Inherits="ProgramaTrainee.WebFormUsuario" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FormProduto.aspx.cs" Inherits="ProgramaTrainee.WebFormProduto" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <!DOCTYPE html>
@@ -155,12 +155,12 @@
             </fieldset>
         </div>
 
-        <asp:GridView ID="GrdVwUsuario" runat="server" CellPadding="7" ForeColor="#333333"
+        <asp:GridView ID="GrdVwProduto" runat="server" CellPadding="7" ForeColor="#333333"
             GridLines="None" AutoGenerateColumns="False" AllowPaging="True" ViewStateMode="Enabled"
             PageSize="10"
             Font-Size="Smaller"
-            OnPageIndexChanging="GrdVwUsuario_PageIndexChanging"
-            OnSelectedIndexChanged="GrdVwUsuario_SelectedIndexChanged" CssClass="GrdVwUsuario" Width="700px">
+            OnPageIndexChanging="GrdVwProduto_PageIndexChanging"
+            OnSelectedIndexChanged="GrdVwProduto_SelectedIndexChanged" CssClass="GrdVwUsuario" Width="700px">
             <RowStyle BackColor="#CCCCFF" />
             <FooterStyle BackColor="#CCCCCC" Font-Bold="True" ForeColor="Black" />
             <PagerStyle BackColor="#CCCCCC" Font-Bold="True" ForeColor="Black" HorizontalAlign="Center" />
@@ -181,7 +181,7 @@
                     <ItemStyle HorizontalAlign="Left" Width="20%"></ItemStyle>
                 </asp:TemplateField>
 
-                <asp:TemplateField HeaderText="Apelido">
+           <%--     <asp:TemplateField HeaderText="Apelido">
                     <ItemTemplate>
                         <%# DataBinder.Eval(Container.DataItem, "Apelido")%>
                     </ItemTemplate>
@@ -215,7 +215,7 @@
                     </ItemTemplate>
                     <HeaderStyle HorizontalAlign="Center" />
                     <ItemStyle HorizontalAlign="Center" Width="20%"></ItemStyle>
-                </asp:TemplateField>
+                </asp:TemplateField>--%>
 
             </Columns>
         </asp:GridView>

@@ -1,4 +1,5 @@
-﻿ using System;
+﻿using ProgramaTrainee.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,13 +8,18 @@ using System.Web.UI.WebControls;
 
 namespace ProgramaTrainee
 {
-    public partial class WebFormUsuario : System.Web.UI.Page
+    public partial class WebFormProduto : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            classUsuario objUsuario = new classUsuario();
-
-            PopulaGridUsuarios(objUsuario);
+            classProduto objProduto = new classProduto();
+            objProduto.Nome = "";
+            objProduto.Cor = "";
+            objProduto.Valor = 0;
+            objProduto.Quantidade = 0;
+            objProduto.Tecido = "";
+            objProduto.Tamanho = "";
+            PopulaGridProduto(objProduto);
         }
 
         protected void btnInserirUsuario_Click(object sender, ImageClickEventArgs e)
@@ -113,73 +119,59 @@ namespace ProgramaTrainee
         protected void btnBuscarUsuario_Click(object sender, ImageClickEventArgs e)
         {
 
-            classUsuario objUsuario = new classUsuario();
-            BLL.BLLUsuario bLLUsuario = new BLL.BLLUsuario();
+            //classUsuario objUsuario = new classUsuario();
+            //BLL.BLLUsuario bLLUsuario = new BLL.BLLUsuario();
 
-            objUsuario.Login = txtLogin.Text;
-            objUsuario.Nome = txtNome.Text;
-            objUsuario.Apelido = txtApelido.Text;
-            objUsuario.Departamento = txtDepartamento.Text;
-            objUsuario.Cargo = txtCargo.Text;
+            //objUsuario.Login = txtLogin.Text;
+            //objUsuario.Nome = txtNome.Text;
+            //objUsuario.Apelido = txtApelido.Text;
+            //objUsuario.Departamento = txtDepartamento.Text;
+            //objUsuario.Cargo = txtCargo.Text;
 
-            PopulaGridUsuarios(objUsuario);
+            //PopulaGridProduto(objProduto);
         }
-        public void PopulaGridUsuarios(classUsuario objUsuario)
+        public void PopulaGridProduto(classProduto objProduto)
         {
-            BLL.BLLUsuario bllUsuario = new BLL.BLLUsuario();
+            BLL.BLLProdutos bllProduto= new BLL.BLLProdutos();
 
-            if (objUsuario.Login == null)
-                objUsuario.Login = "";
 
-            if (objUsuario.Nome == null)
-                objUsuario.Nome = "";
-
-            if (objUsuario.Apelido == null)
-                objUsuario.Apelido = "";
-
-            if (objUsuario.Cargo == null)
-                objUsuario.Cargo = "";
-
-            if (objUsuario.Departamento == null)
-                objUsuario.Departamento = "";
-
-            GrdVwUsuario.DataSource = bllUsuario.ConsultaUsuarios(objUsuario);
-            GrdVwUsuario.DataBind();
+            GrdVwProduto.DataSource = bllProduto.ListarTodosProdutos(objProduto);
+            GrdVwProduto.DataBind();
 
         }
 
-        protected void GrdVwUsuario_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        protected void GrdVwProduto_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
-            GrdVwUsuario.PageIndex = e.NewPageIndex;
+            GrdVwProduto.PageIndex = e.NewPageIndex;
 
 
-            PopulaGridUsuarios(new classUsuario());
+            PopulaGridProduto(new classProduto());
         }
 
-        protected void GrdVwUsuario_SelectedIndexChanged(object sender, EventArgs e)
+        protected void GrdVwProduto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Int32 Indice = GrdVwUsuario.SelectedRow.RowIndex + (GrdVwUsuario.PageIndex * GrdVwUsuario.PageSize);
+            Int32 Indice = GrdVwProduto.SelectedRow.RowIndex + (GrdVwProduto.PageIndex * GrdVwProduto.PageSize);
 
-            BLL.BLLUsuario bllUsuario = new BLL.BLLUsuario();
+            //BLL.BLLUsuario bllUsuario = new BLL.BLLUsuario();
 
-            classUsuario objUsuario = new classUsuario();
+            //classUsuario objUsuario = new classUsuario();
 
-            objUsuario.Login = "";
-            objUsuario.Nome = "";
-            objUsuario.Apelido = "";
-            objUsuario.Cargo = "";
-            objUsuario.Departamento = "";
+            //objUsuario.Login = "";
+            //objUsuario.Nome = "";
+            //objUsuario.Apelido = "";
+            //objUsuario.Cargo = "";
+            //objUsuario.Departamento = "";
 
-            objUsuario = bllUsuario.ConsultaUsuarios(objUsuario)[Indice];
+            //objUsuario = bllUsuario.ConsultaUsuarios(objUsuario)[Indice];
 
-            txtLogin.Text = objUsuario.Login;
-            txtNome.Text = objUsuario.Nome;
-            lblIDusuario.Value = objUsuario.ID_Usuario.ToString();
-            txtApelido.Text = objUsuario.Apelido;
-            txtCargo.Text = objUsuario.Cargo;
-            txtDepartamento.Text = objUsuario.Departamento;
-            TxtBxDataCriacao.Text = objUsuario.Data_criacao.ToString();
-            TxtBxDataAlteracao.Text = objUsuario.Data_alteracao.ToString();
+            //txtLogin.Text = objUsuario.Login;
+            //txtNome.Text = objUsuario.Nome;
+            //lblIDusuario.Value = objUsuario.ID_Usuario.ToString();
+            //txtApelido.Text = objUsuario.Apelido;
+            //txtCargo.Text = objUsuario.Cargo;
+            //txtDepartamento.Text = objUsuario.Departamento;
+            //TxtBxDataCriacao.Text = objUsuario.Data_criacao.ToString();
+            //TxtBxDataAlteracao.Text = objUsuario.Data_alteracao.ToString();
 
         }
 
