@@ -130,3 +130,95 @@ C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.dll
 C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.pdb
 C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.AssemblyReference.cache
 C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee\obj\Debug\ProgramaTrainee.csproj.CopyComplete
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\ProgramaTrainee.dll.config
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\ProgramaTrainee.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\ProgramaTrainee.pdb
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\csc.exe
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\csc.exe.config
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\csc.rsp
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\csi.exe
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\csi.rsp
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\System.AppContext.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\vbc.exe
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\vbc.exe.config
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\vbc.rsp
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\VBCSCompiler.exe
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\EntityFramework.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\EntityFramework.SqlServer.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\EntityFramework.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\EntityFramework.SqlServer.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.csproj.AssemblyReference.cache
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.csproj.CoreCompileInputs.cache
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.csproj.CopyComplete
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.dll
+C:\Users\terra\Desktop\Projetos C#\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.pdb
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\ProgramaTrainee.dll.config
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\ProgramaTrainee.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\ProgramaTrainee.pdb
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\csc.exe
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\csc.exe.config
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\csc.rsp
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\csi.exe
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\csi.rsp
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\vbc.exe
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\vbc.exe.config
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\vbc.rsp
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\VBCSCompiler.exe
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\EntityFramework.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\EntityFramework.SqlServer.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\EntityFramework.xml
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\EntityFramework.SqlServer.xml
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.csproj.AssemblyReference.cache
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.csproj.CoreCompileInputs.cache
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.csproj.CopyComplete
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\obj\Debug\ProgramaTrainee.pdb
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\csi.exe.config
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\System.Buffers.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\System.Memory.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\terra\Desktop\WorkSpaces\WorkSpace-CSharp\ProgramaTrainee - Isaque\bin\roslyn\System.Threading.Tasks.Extensions.dll

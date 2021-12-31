@@ -15,100 +15,101 @@ namespace ProgramaTrainee
             classProduto objProduto = new classProduto();
             objProduto.Nome = "";
             objProduto.Cor = "";
+            objProduto.ID_Produtos = 0;
             objProduto.Valor = 0;
             objProduto.Quantidade = 0;
             objProduto.Tecido = "";
             objProduto.Tamanho = "";
+            objProduto.Data_Criacao = DateTime.MinValue;
+            objProduto.Data_Alteracao = DateTime.MinValue;
             PopulaGridProduto(objProduto);
         }
 
-        protected void btnInserirUsuario_Click(object sender, ImageClickEventArgs e)
+        protected void btnInserirProduto_Click(object sender, ImageClickEventArgs e)
         {
-            BLL.BLLUsuario bLLUsuario = new BLL.BLLUsuario();
+            BLL.BLLProdutos bLLProdutos = new BLL.BLLProdutos();
 
-            classUsuario objUsuario = new classUsuario();
-            objUsuario.Login = txtLogin.Text;
-            objUsuario.Senha = txtSenha.Text;
-            objUsuario.Nome = txtNome.Text;
-            objUsuario.ID_Usuario = Convert.ToInt32(lblIDusuario.Value);
-            objUsuario.Apelido = txtApelido.Text;
-            objUsuario.Cargo = txtCargo.Text;
-            objUsuario.Departamento = txtDepartamento.Text;
-            objUsuario.Sexo = drpSexo.SelectedValue;
-
+            classProduto objProduto = new classProduto();
+            objProduto.Nome = txtNome.Text;
+            objProduto.Cor = txtCor.Text;
+            objProduto.Valor = Convert.ToDouble(txtValor.Text);
+            objProduto.Quantidade = Convert.ToInt32(txtQuantidade.Text);
+            objProduto.Tecido = txtTecido.Text;
+            objProduto.Tamanho = txtTamanho.Text;
+  
 
 
-            if (bLLUsuario.InserirUsuario(objUsuario))
+
+
+
+            if (bLLProdutos.InserirProduto(objProduto))
             {
-                clsBase.Alert("Usuario inserido com sucesso.", this);
+                clsBase.Alert("Produto inserido com sucesso.", this);
 
             }
             else
             {
-                clsBase.Alert("Erro ao inserir o usuario.", this);
+                clsBase.Alert("Erro ao inserir o Produto.", this);
             }
         }
         protected void btnAlterarUsuario_Click(object sender, ImageClickEventArgs e)
         {
-            BLL.BLLUsuario bLLUsuario = new BLL.BLLUsuario();
+            BLL.BLLProdutos bLLProdutos = new BLL.BLLProdutos();
 
-            classUsuario objUsuario = new classUsuario();
+            classProduto objProduto = new classProduto();
 
-            objUsuario.ID_Usuario = 0;
-            objUsuario.Login = txtLogin.Text;
-            objUsuario.Senha = txtSenha.Text;
-            objUsuario.Nome = txtNome.Text;
-            objUsuario.ID_Usuario = Convert.ToInt32(lblIDusuario.Value);
-            objUsuario.Apelido = txtApelido.Text;
-            objUsuario.Cargo = txtCargo.Text;
-            objUsuario.Departamento = txtDepartamento.Text;
-            objUsuario.Sexo = drpSexo.Text;
-            String SenhaA = txtSenha.Text;
+            objProduto.ID_Produtos = Convert.ToInt32(lblIDproduto.Value);
+            objProduto.Nome = txtNome.Text;
+            objProduto.Cor = txtCor.Text;
+            objProduto.Valor = Convert.ToDouble(txtValor.Text);
+            objProduto.Quantidade = Convert.ToInt32(txtQuantidade.Text);
+            objProduto.Tecido = txtTecido.Text;
+            objProduto.Tamanho = txtTamanho.Text;
 
-            if (txtNome.Text == "" || txtLogin.Text == "" || txtSenha.Text == "")
+
+
+            if (txtNome.Text == "")
             {
-                clsBase.Alert("Inserir pelo menos nome,login e senha", this);
+                clsBase.Alert("Insira o nome do produto", this);
             }
             else
-            if (bLLUsuario.SP_AlterarUsuario(objUsuario))
+            if (bLLProdutos.AlterarProdutos(objProduto))
             {
-                clsBase.Alert("Usuario alterado com sucesso.", this);
+                clsBase.Alert("Produto alterado com sucesso.", this);
 
-                txtLogin.Text = "";
-                txtSenha.Text = "";
                 txtNome.Text = "";
-                lblIDusuario.Value = "";
-                txtApelido.Text = "";
-                txtCargo.Text = "";
-                txtDepartamento.Text = "";
+                txtCor.Text = "";
+                txtValor.Text = "";
+                lblIDproduto.Value = "";
+                txtQuantidade.Text = "";
+                txtTecido.Text = "";
+                txtTamanho.Text = "";
             }
             else
             {
-                clsBase.Alert("Erro ao alterar o usuario.", this);
+                clsBase.Alert("Erro ao alterar o produto.", this);
             }
 
         }
         protected void btnExcluirUsuario_Click(object sender, ImageClickEventArgs e)
         {
-            classUsuario objUsuario = new classUsuario();
+            classProduto objProduto = new classProduto();
 
-            objUsuario.Login = txtLogin.Text;
+            objProduto.Nome = txtNome.Text;
 
-            BLL.BLLUsuario bllUsuario = new BLL.BLLUsuario();
+            BLL.BLLProdutos bllProduto = new BLL.BLLProdutos();
 
-            if (bllUsuario.SP_ExcluirUsuario(objUsuario))
+            if (bllProduto.ExcluirProduto(objProduto))
             {
                 clsBase.Alert("Usuário excluido com sucesso.", this);
 
-                txtApelido.Text = "";
-                txtCargo.Text = "";
-                txtDepartamento.Text = "";
-                txtLogin.Text = "";
                 txtNome.Text = "";
-                lblIDusuario.Value = "";
-                txtSenha.Text = "";
-                TxtBxDataCriacao.Text = "";
-                TxtBxDataAlteracao.Text = "";
+                txtCor.Text = "";
+                lblIDproduto.Value = "";
+                txtQuantidade.Text = "";
+                txtTamanho.Text = "";
+                txtTecido.Text = "";
+                txtValor.Text = "";
             }
             else
             {
@@ -116,27 +117,48 @@ namespace ProgramaTrainee
             }
         }
 
-        protected void btnBuscarUsuario_Click(object sender, ImageClickEventArgs e)
+        protected void btnBuscarProduto_Click(object sender, ImageClickEventArgs e)
         {
 
-            //classUsuario objUsuario = new classUsuario();
-            //BLL.BLLUsuario bLLUsuario = new BLL.BLLUsuario();
+            classProduto objProduto = new classProduto();
+            BLL.BLLProdutos bLLProduto = new BLL.BLLProdutos();
 
-            //objUsuario.Login = txtLogin.Text;
-            //objUsuario.Nome = txtNome.Text;
-            //objUsuario.Apelido = txtApelido.Text;
-            //objUsuario.Departamento = txtDepartamento.Text;
-            //objUsuario.Cargo = txtCargo.Text;
-
-            //PopulaGridProduto(objProduto);
+            objProduto.Nome = txtNome.Text;
+            objProduto.Cor = txtCor.Text;
+            objProduto.Valor = Convert.ToDouble(txtValor.Text);
+            objProduto.Quantidade = Convert.ToInt32(txtQuantidade.Text.ToString());
+            objProduto.Tecido = txtTecido.Text;
+            objProduto.Tamanho = txtTamanho.Text;
+            PopulaGridProduto(objProduto);
         }
         public void PopulaGridProduto(classProduto objProduto)
         {
-            BLL.BLLProdutos bllProduto= new BLL.BLLProdutos();
+            BLL.BLLProdutos bLLProdutos = new BLL.BLLProdutos();
+
+            if (objProduto.Nome == null)
+                objProduto.Nome = "";
+
+            if (objProduto.Cor == null)
+                objProduto.Cor = "";
+
+            if (objProduto.Valor == double.MaxValue)
+                objProduto.Valor = 0;
+
+            if (objProduto.Quantidade == int.MinValue)
+                objProduto.Quantidade = 0;
+
+            if (objProduto.Tecido == null)
+                objProduto.Tecido = "";
+
+            if (objProduto.Tamanho == null)
+                objProduto.Tamanho = "";
 
 
-            GrdVwProduto.DataSource = bllProduto.ListarTodosProdutos(objProduto);
+            GrdVwProduto.DataSource = bLLProdutos.ConsultaProduto(objProduto);
             GrdVwProduto.DataBind();
+
+
+
 
         }
 
@@ -152,39 +174,46 @@ namespace ProgramaTrainee
         {
             Int32 Indice = GrdVwProduto.SelectedRow.RowIndex + (GrdVwProduto.PageIndex * GrdVwProduto.PageSize);
 
-            //BLL.BLLUsuario bllUsuario = new BLL.BLLUsuario();
+            BLL.BLLProdutos bllProdutos = new BLL.BLLProdutos();
 
-            //classUsuario objUsuario = new classUsuario();
+            classProduto objProduto = new classProduto();
 
-            //objUsuario.Login = "";
-            //objUsuario.Nome = "";
-            //objUsuario.Apelido = "";
-            //objUsuario.Cargo = "";
-            //objUsuario.Departamento = "";
+            objProduto.ID_Produtos = 0;
+            objProduto.Nome = "";
+            objProduto.Cor = "";
+            objProduto.Valor = 0;
+            objProduto.Quantidade = 0;
+            objProduto.Tecido = "";
+            objProduto.Tamanho = "";
+ 
 
-            //objUsuario = bllUsuario.ConsultaUsuarios(objUsuario)[Indice];
+            objProduto = bllProdutos.ConsultaProduto(objProduto)[Indice];
 
-            //txtLogin.Text = objUsuario.Login;
-            //txtNome.Text = objUsuario.Nome;
-            //lblIDusuario.Value = objUsuario.ID_Usuario.ToString();
-            //txtApelido.Text = objUsuario.Apelido;
-            //txtCargo.Text = objUsuario.Cargo;
-            //txtDepartamento.Text = objUsuario.Departamento;
-            //TxtBxDataCriacao.Text = objUsuario.Data_criacao.ToString();
-            //TxtBxDataAlteracao.Text = objUsuario.Data_alteracao.ToString();
+            lblIDproduto.Value = objProduto.ID_Produtos.ToString();
+            txtNome.Text = objProduto.Nome;
+            txtCor.Text = objProduto.Cor;
+            txtValor.Text = objProduto.Valor.ToString();
+            txtQuantidade.Text = objProduto.Quantidade.ToString();
+            txtTecido.Text = objProduto.Tecido;
+            txtTamanho.Text = objProduto.Tamanho;
+            TxtBxDataCriacao.Text = objProduto.Data_Criacao.ToString();
+            TxtBxDataAlteracao.Text = objProduto.Data_Alteracao.ToString();
+
 
         }
 
-        protected void btnLimpar_Click(object sender, ImageClickEventArgs e)
+        protected void btnLimpar_Click(object sender, EventArgs e)
         {
+            lblIDproduto.Value = "";
             txtNome.Text = "";
-            txtLogin.Text = "";
-            txtSenha.Text = "";
-            txtApelido.Text = "";
-            txtCargo.Text = "";
-            txtDepartamento.Text = "";
+            txtCor.Text = "";
+            txtQuantidade.Text = "";
+            txtTamanho.Text = "";
+            txtTecido.Text = "";
+            txtValor.Text = "";
             TxtBxDataCriacao.Text = "";
             TxtBxDataAlteracao.Text = "";
+
         }
     }
 }

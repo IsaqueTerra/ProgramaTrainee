@@ -9,6 +9,7 @@ namespace ProgramaTrainee
 {
     public partial class WebFormUsuario : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
             classUsuario objUsuario = new classUsuario();
@@ -28,7 +29,8 @@ namespace ProgramaTrainee
             objUsuario.Apelido = txtApelido.Text;
             objUsuario.Cargo = txtCargo.Text;
             objUsuario.Departamento = txtDepartamento.Text;
-            objUsuario.Sexo = drpSexo.SelectedValue;
+            objUsuario.Sexo = txtSexo.Text;
+
 
 
 
@@ -56,7 +58,7 @@ namespace ProgramaTrainee
             objUsuario.Apelido = txtApelido.Text;
             objUsuario.Cargo = txtCargo.Text;
             objUsuario.Departamento = txtDepartamento.Text;
-            objUsuario.Sexo = drpSexo.Text;
+            objUsuario.Sexo = txtSexo.Text;
             String SenhaA = txtSenha.Text;
 
             if (txtNome.Text == "" || txtLogin.Text == "" || txtSenha.Text == "")
@@ -99,8 +101,8 @@ namespace ProgramaTrainee
                 txtDepartamento.Text = "";
                 txtLogin.Text = "";
                 txtNome.Text = "";
-                lblIDusuario.Value = "";
                 txtSenha.Text = "";
+                txtSexo.Text = "";
                 TxtBxDataCriacao.Text = "";
                 TxtBxDataAlteracao.Text = "";
             }
@@ -119,6 +121,8 @@ namespace ProgramaTrainee
             objUsuario.Login = txtLogin.Text;
             objUsuario.Nome = txtNome.Text;
             objUsuario.Apelido = txtApelido.Text;
+            objUsuario.Senha = txtSenha.Text;
+            objUsuario.Sexo = txtSexo.Text;
             objUsuario.Departamento = txtDepartamento.Text;
             objUsuario.Cargo = txtCargo.Text;
 
@@ -136,6 +140,12 @@ namespace ProgramaTrainee
 
             if (objUsuario.Apelido == null)
                 objUsuario.Apelido = "";
+
+            if (objUsuario.Senha == null)
+                objUsuario.Senha = "";
+
+            if (objUsuario.Sexo == null)
+                objUsuario.Sexo = "";
 
             if (objUsuario.Cargo == null)
                 objUsuario.Cargo = "";
@@ -167,8 +177,12 @@ namespace ProgramaTrainee
             objUsuario.Login = "";
             objUsuario.Nome = "";
             objUsuario.Apelido = "";
+            objUsuario.Senha = "";
             objUsuario.Cargo = "";
+            objUsuario.Sexo = "";
             objUsuario.Departamento = "";
+
+
 
             objUsuario = bllUsuario.ConsultaUsuarios(objUsuario)[Indice];
 
@@ -176,20 +190,26 @@ namespace ProgramaTrainee
             txtNome.Text = objUsuario.Nome;
             lblIDusuario.Value = objUsuario.ID_Usuario.ToString();
             txtApelido.Text = objUsuario.Apelido;
+            txtSenha.Text = objUsuario.Senha;
             txtCargo.Text = objUsuario.Cargo;
+            txtSexo.Text = objUsuario.Sexo;
             txtDepartamento.Text = objUsuario.Departamento;
-            TxtBxDataCriacao.Text = objUsuario.Data_criacao.ToString();
-            TxtBxDataAlteracao.Text = objUsuario.Data_alteracao.ToString();
+            TxtBxDataCriacao.Text = Convert.ToString(objUsuario.Data_criacao);
+            TxtBxDataAlteracao.Text = Convert.ToString(objUsuario.Data_alteracao);
+
 
         }
 
-        protected void btnLimpar_Click(object sender, ImageClickEventArgs e)
+
+protected void btnLimpar_Click(object sender, EventArgs e)
         {
+            lblIDusuario.Value = "";
             txtNome.Text = "";
             txtLogin.Text = "";
             txtSenha.Text = "";
             txtApelido.Text = "";
             txtCargo.Text = "";
+            txtSexo.Text = "";
             txtDepartamento.Text = "";
             TxtBxDataCriacao.Text = "";
             TxtBxDataAlteracao.Text = "";

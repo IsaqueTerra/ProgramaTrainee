@@ -33,15 +33,6 @@ namespace ProgramaTrainee
         protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
-        /// Controle Label1.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
         /// Controle lblIDusuario.
         /// </summary>
         /// <remarks>
@@ -60,15 +51,6 @@ namespace ProgramaTrainee
         protected global::System.Web.UI.WebControls.TextBox txtNome;
 
         /// <summary>
-        /// Controle Label2.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-
-        /// <summary>
         /// Controle txtLogin.
         /// </summary>
         /// <remarks>
@@ -76,15 +58,6 @@ namespace ProgramaTrainee
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLogin;
-
-        /// <summary>
-        /// Controle Label3.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
         /// Controle txtSenha.
@@ -96,15 +69,6 @@ namespace ProgramaTrainee
         protected global::System.Web.UI.WebControls.TextBox txtSenha;
 
         /// <summary>
-        /// Controle Label4.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
-
-        /// <summary>
         /// Controle txtApelido.
         /// </summary>
         /// <remarks>
@@ -112,15 +76,6 @@ namespace ProgramaTrainee
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtApelido;
-
-        /// <summary>
-        /// Controle Label5.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
         /// Controle txtCargo.
@@ -132,15 +87,6 @@ namespace ProgramaTrainee
         protected global::System.Web.UI.WebControls.TextBox txtCargo;
 
         /// <summary>
-        /// Controle Label6.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
-
-        /// <summary>
         /// Controle txtDepartamento.
         /// </summary>
         /// <remarks>
@@ -150,31 +96,13 @@ namespace ProgramaTrainee
         protected global::System.Web.UI.WebControls.TextBox txtDepartamento;
 
         /// <summary>
-        /// Controle Label9.
+        /// Controle txtSexo.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label9;
-
-        /// <summary>
-        /// Controle drpSexo.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList drpSexo;
-
-        /// <summary>
-        /// Controle Label7.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
+        protected global::System.Web.UI.WebControls.DropDownList txtSexo;
 
         /// <summary>
         /// Controle TxtBxDataCriacao.
@@ -213,15 +141,6 @@ namespace ProgramaTrainee
         protected global::AjaxControlToolkit.CalendarExtender ClndrExtndrDataCriacao;
 
         /// <summary>
-        /// Controle Label8.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label8;
-
-        /// <summary>
         /// Controle TxtBxDataAlteracao.
         /// </summary>
         /// <remarks>
@@ -249,13 +168,22 @@ namespace ProgramaTrainee
         protected global::AjaxControlToolkit.MaskedEditExtender MaskedEditExtender1;
 
         /// <summary>
-        /// Controle ClndrExtndrDataAlteracao.
+        /// Controle CalendarExtender1.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::AjaxControlToolkit.CalendarExtender ClndrExtndrDataAlteracao;
+        protected global::AjaxControlToolkit.CalendarExtender CalendarExtender1;
+
+        /// <summary>
+        /// Controle btnLimparUsuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLimparUsuario;
 
         /// <summary>
         /// Controle btnInserirUsuario.
@@ -274,15 +202,6 @@ namespace ProgramaTrainee
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton btnAlterarUsuario;
-
-        /// <summary>
-        /// Controle btnLimpar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnLimpar;
 
         /// <summary>
         /// Controle btnExcluirUsuario.

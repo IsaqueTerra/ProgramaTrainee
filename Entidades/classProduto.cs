@@ -14,7 +14,7 @@ namespace ProgramaTrainee.Entidades
 
         public string Cor { get; set; }
 
-        public decimal Valor { get; set; }
+        public double Valor { get; set; }
 
         public int Quantidade { get; set; }
 

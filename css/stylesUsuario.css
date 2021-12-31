@@ -1,0 +1,35 @@
+﻿body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+legend {
+    text-align: center;
+}
+
+.Usuario {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 350px;
+    height: 420px;
+}
+fieldset {
+
+    border-radius: 12px;
+    padding: 25px;
+}
+.GrdVwUsuario{
+    margin-top: 25px;
+      
+
+}
